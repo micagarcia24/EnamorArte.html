@@ -1,0 +1,79 @@
+body {
+    font-family: math;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #3494E6, #EC6EAD);
+}
+
+.registration-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(233, 26, 223, 0.801);
+}
+
+h2 {
+    color: #007BFF;
+   
+}
+
+.form-group {
+    margin: 8px 0;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    width: 90%;
+    padding: 10px;
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+   
+}
+
+button:hover {
+    background: #EC6EAD;
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#create-account-button {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#create-account-button:hover {
+    text-decoration: underline;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 160px;
+    margin-bottom: 20px; 
+}
