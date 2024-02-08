@@ -26,10 +26,10 @@ function togglePasswordVisibility() {
         passwordInput.type = "text";
         passwordToggle.
         password
-         textContent = "Ocultar contraseña";
+         textContent = "Ocultar ";
     } else {
         passwordInput.type = "password";
-        passwordToggle.textContent = "Mostrar contraseña";
+        passwordToggle.textContent = "Mostrar ";
     }
 }
 document.getElementById("Regisrarse").addEventListener("click", function() {
